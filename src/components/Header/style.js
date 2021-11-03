@@ -8,6 +8,8 @@ export const Container = styled.section`
     align-items:center;
     position:fixed;
     background-color: black;
+    z-index:999;
+
 
 `
 export const Nav = styled.nav`
@@ -20,5 +22,12 @@ export const Nav = styled.nav`
     justify-content:space-evenly;
 `
 export const Img = styled.div`
+
     margin-left:9%;
+
+`
+export const HeaderTwo = styled.div`
+padding-top:8%;
+
+
 `
