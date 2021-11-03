@@ -44,8 +44,11 @@ export function Header() {
             <p>{contactus}</p>
             </S.Nav>
             </S.Container>
-             <p>{bookcity}</p>
+            <S.HeaderTwo>
+            <p>{bookcity}</p>
             <img src={imgtaxi.url} alt=""/>
+            </S.HeaderTwo>
+             
         </div>
     )
 }
