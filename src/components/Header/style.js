@@ -13,19 +13,21 @@ export const Container = styled.section`
 
 `
 export const Nav = styled.nav`
-width: 40vw;
-color:white;
-display: flex;
-position:absolute;
-left:51%;
-font-size:1.5vw;
-justify-content:space-evenly;
+    width: 40vw;
+    color:white;
+    display: flex;
+    position:absolute;
+    left:51%;
+    font-size:1.5vw;
+    justify-content:space-evenly;
 `
 export const Img = styled.div`
-margin-left:9%;
-`
 
+    margin-left:9%;
+
+`
 export const HeaderTwo = styled.div`
 padding-top:8%;
+
 
 `
