@@ -1,18 +1,20 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    max-width: 1240px;
-    margin: auto;
     height: 80vh;
+    display: flex;
+    justify-content: center;
     background-color: #292828;
     color: white;
 `
 export const Section = styled.div`
-    width: 100%;
+    max-width: 1040px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    
 `
 export const Card = styled.div`
     width: 22%;
