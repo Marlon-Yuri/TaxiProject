@@ -64,8 +64,10 @@ export function Main() {
             <S.SectionBackground>
                 <S.Background src={imgbackground.url} alt=""/>
                 <S.BoxTitle>
-                    <S.TitleDown>{titledownload}</S.TitleDown>
-                    <S.TitleApp>{titleapptoday}</S.TitleApp>
+                    <S.TextDownload>
+                        <S.TitleDown>{titledownload}</S.TitleDown>
+                        <S.TitleApp>{titleapptoday}</S.TitleApp>
+                    </S.TextDownload>
                 </S.BoxTitle>
                 <div>
                     <S.CellPhone src={imgcellphone.url} alt=""/>

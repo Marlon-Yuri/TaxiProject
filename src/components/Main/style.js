@@ -38,29 +38,32 @@ height: 60vh;
 `
 export const SectionBackground = styled.section`
     width: 98.9vw;
-    height: 100vh;
-    background-color: blue;
+    height: 115vh;
     position: relative;
 `
 export const Background = styled.img`
     width: 98.9vw;
 `
 export const BoxTitle = styled.div`
-    height: 25vh;
+    height: 90vh;
+    position: absolute;
+    top: 100px;
+    right: 420px;
+`
+export const TextDownload = styled.div`
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: red;
-    position: absolute;
-    top: 100px;
-    right: 500px;
+    font-size: 3rem;
+    line-height: 1.80857;
+    font-weight: normal;
 `
 export const TitleDown = styled.p`
-    font-size: 2rem;
-    font-weight: 900;
+    color: #24292b;
 `
 export const TitleApp = styled.p`
-    font-size: 2rem;
+    color: #fffcf4;
     font-weight: 400;
 `
 export const CellPhone = styled.img`

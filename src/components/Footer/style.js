@@ -1,14 +1,15 @@
 import styled from 'styled-components'
 
+
 export const Container = styled.div`
-    height: 80vh;
-    display: flex;
-    justify-content: center;
+    height: auto;
+    padding: 60px 0px;
+    margin-top: 90px;
     background-color: #292828;
     color: white;
 `
 export const Section = styled.div`
-    max-width: 1040px;
+    max-width: 1240px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -17,54 +18,62 @@ export const Section = styled.div`
     
 `
 export const Card = styled.div`
-    width: 22%;
+    width: 20%;
+    height: 55vh;
+    padding-left: 25px;
 `
 export const Navegation = styled.div`
-    display: flex;
-    flex-direction: column;
+    
 `
-export const BoxSocial = styled.div`
+export const BoxNav = styled.div`
     display: flex;
     align-items: center;
-    width: 100px;
+    width: 150px;
     height: 30px;
 `
-export const Item = styled.li`
-    list-style-image: url("../../media/examples/rocket.svg");
-`
-export const Media = styled.p`
+export const Item = styled.p`
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 1.3rem;
+    cursor: pointer;
 `
 export const Title = styled.h3`
     font-size: 2rem;
 `
+export const BoxInfo = styled.div`
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+`
+export const BoxNews = styled.div`
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+`
 export const Input = styled.input`
-    width: 80%;
+    width: 100%;
+    height: 50px;
     padding: 10px;
     border-radius: 5px;
     border: 0px;
+    font-size: 17.6px;
 `
 export const Btn = styled.button`
-    width: 60%;
-    font-size: 16pt;
+    width: 70%;
+    font-weight: 900;
+    font-size: 1.2rem;
     color: #eceaea;
     background-color: #fecf3d;
     border: none;
     border-radius: 4px;
     text-align: center;
-    padding: 10px 0px;
+    padding: 12px 0px;
     cursor: pointer;
 `
-export const BoxInfo = styled.div`
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-`
 export const Copy = styled.div`
-    width: 100%;
     height: 10vh;
     display: flex;
     justify-content: center;
