@@ -22,17 +22,20 @@ color:white;
 export const Card = styled.div`
 color: gray;
 display:flex;
+width:24.3vw;
+height:63vh;
 flex-direction:column;
 justify-content:space-evenly;
 align-items:center;
 background-color:white;
+position: relative;
 `
 
 export const Cards = styled.section`
 display:flex;
 position:relative;
 top:30%;
-width:68vw;
+width:79vw;
 justify-content:space-between;
 height: 60vh;
 `
@@ -72,3 +75,26 @@ export const CellPhone = styled.img`
     top: 100px;
     right: 50px;
 `
+export const Circle = styled.div`
+    display:flex;
+    justify-content:center;
+    position:absolute;
+    width: 5vw;
+    height:9.5vh;
+    font-weight:bolder;
+    align-items:center;
+    top:-7.7%;
+    font-size:2vw;
+    color:#DCDCDC;
+    background-color:#FFB90F;
+    border-radius:50%;
+
+`
+export const CardBox = styled.div`
+    display:flex;
+    height: 55vh;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items:center;
+`
+
