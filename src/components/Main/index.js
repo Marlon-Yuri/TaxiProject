@@ -14,12 +14,23 @@ export function Main() {
                 circle02
                 circle03
                 cardtitle
-                
+                wallettitle
+                wallettext
+                walletbuttom
+                wallet {
+                  url
+                }
                 cardtext
                 cardtaxi {
                   url
                 }
                 main2Title
+                girlbuttom
+                girltext
+                girltitle
+                girlimg {
+                  url
+                }
                 titledownload
                 titleapptoday
                 imgcellphone {
@@ -34,7 +45,8 @@ export function Main() {
             
 `)
     const { cardtitle, circle01, circle02, circle03, cardtaxi, car1, car2, car3, cardtext, titledownload, titleapptoday, imgcellphone, imgbackground 
-    , main2Title} = data.alldata.mains[0]
+    , main2Title, wallettitle, wallettext, walletbuttom, wallet, girlbuttom,
+girltext, girltitle, girlimg} = data.alldata.mains[0]
     return (
         <div>
             <S.Container>
@@ -56,7 +68,6 @@ export function Main() {
                         <S.Circle>
                             <p>{circle02}</p>
                         </S.Circle>
-
                         <h3>{car2}</h3>
                         <p>{cardtext}</p>
                         <img src={cardtaxi.url} alt="" />
@@ -75,9 +86,30 @@ export function Main() {
                 <S.Main2Title>
                     <h2>{main2Title}</h2>
                 </S.Main2Title>
+                <S.SectionWallet>
+                <img src={wallet.url} alt="" />
+                <S.WalletBox>
+                <h3>{wallettitle}</h3>
+                <p>{wallettext}</p>
+                <S.BtnWallet>
+                    <h3>{walletbuttom}</h3>
+                </S.BtnWallet>
                 
+                </S.WalletBox>
+                </S.SectionWallet>
+                <S.SectionGirl>
+                <img src={girlimg.url} alt="" />
+                <S.WalletBox>
+                <h3>{girltitle}</h3>
+                <p>{girltext}</p>
+                <S.BtnWallet>
+                    <h3>{girlbuttom}</h3>
+                </S.BtnWallet>
+                
+                </S.WalletBox>
+
+                </S.SectionGirl>
             </S.Main2box>
-            
             <S.SectionBackground>
                 <S.Background src={imgbackground.url} alt="" />
                 <S.BoxTitle>

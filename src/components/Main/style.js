@@ -99,17 +99,55 @@ export const CardBox = styled.div`
 `
 export const Main2box = styled.section`
 border: solid red;
-display:flex;
 position:relative;
 justify-content:center;
 width:100%;
-height:120vh;
+height:180vh;
 `
 export const Main2Title = styled.div`
-font-weight:100; 
 height: 10vh;
 top:10%;
 position:absolute;
+left:30%;
+font-weight: lighter;
+position:absolute;
 font-size:2.7vw;
 
+`
+export const SectionWallet = styled.section`
+left:7.6%;
+display:flex;
+position:absolute;
+height:40vh;
+top:25%;
+`
+export const WalletBox = styled.div `
+width:55vw;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+height:37vh;
+position:absolute;
+left:110%;
+top:7%;
+font-size:1.4vw;
+
+`
+export const BtnWallet =styled.div`
+width:12vw;
+display:flex;
+justify-content:center;
+background-color:#FFC125;
+color:white;
+align-items:center;
+height:7.5vh;
+font-weight:lighter;
+
+`
+export const SectionGirl = styled.section`
+left:7.6%;
+display:flex;
+position:absolute;
+height:40vh;
+top:50%;
 `
