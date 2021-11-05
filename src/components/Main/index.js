@@ -49,11 +49,11 @@ export function Main() {
 girltext, girltitle, girlimg} = data.alldata.mains[0]
     return (
         <div>
-            <S.Container>
-                <S.Div>
+            <S.SectionCardTaxi>
+                <S.TitleCardTaxi>
                     <p>{cardtitle}</p>
-                </S.Div>
-                <S.Cards>
+                </S.TitleCardTaxi>
+                <S.BoxCard >
                     <S.Card>
                         <S.Circle>
                             <p>{circle01}</p>
@@ -76,10 +76,10 @@ girltext, girltitle, girlimg} = data.alldata.mains[0]
                         </S.Circle>
                         <h3>{car3}</h3>
                         <p>{cardtext}</p>
-                        <img src={cardtaxi.url} alt="" />
+                        <S.ImgCar src={cardtaxi.url} alt="" />
                     </S.Card>
-                </S.Cards>
-            </S.Container>
+                </S.BoxCard>
+            </S.SectionCardTaxi>
             <S.Main2box>
                 <S.Main2Title>
                     <h2>{main2Title}</h2>

@@ -39,18 +39,7 @@ export const Card = styled.div`
     background-color:white;
     color: #2b3436;
 `
-export const Circle = styled.div`
-    position: absolute;
-    bottom: 360px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: yellow;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-`
+
 export const ImgCar = styled.img`
     width: 80%;
 `
@@ -95,12 +84,12 @@ export const Circle = styled.div`
     display:flex;
     justify-content:center;
     position:absolute;
-    width: 5vw;
-    height:9.5vh;
+    width: 50px;
+    height:50px;
     font-weight:bolder;
     align-items:center;
     top:-7.7%;
-    font-size:2vw;
+    font-size:1.8vw;
     color:#DCDCDC;
     background-color:#FFB90F;
     border-radius:50%;
