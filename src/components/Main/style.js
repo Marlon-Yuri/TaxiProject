@@ -98,11 +98,10 @@ export const CardBox = styled.div`
     align-items:center;
 `
 export const Main2box = styled.section`
-border: solid red;
 position:relative;
 justify-content:center;
 width:100%;
-height:180vh;
+height:215vh;
 `
 export const Main2Title = styled.div`
 height: 10vh;
@@ -116,10 +115,11 @@ font-size:2.7vw;
 `
 export const SectionWallet = styled.section`
 left:7.6%;
+flex-direction:row;
 display:flex;
 position:absolute;
 height:40vh;
-top:25%;
+top:23%;
 `
 export const WalletBox = styled.div `
 width:55vw;
@@ -142,12 +142,63 @@ color:white;
 align-items:center;
 height:7.5vh;
 font-weight:lighter;
+&:hover {
+    background-color:black;
+    cursor:pointer;
+  }
 
 `
 export const SectionGirl = styled.section`
+left:5%;
+display:flex;
+position:absolute;
+height:40vh;
+top:43%;
+width:50vw;
+`
+export const GirlBox = styled.div `
+width:55vw;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+height:37vh;
+align-items:flex-end;
+position:absolute;
+left:17%;
+top:2%;
+font-size:1.4vw;
+`
+export const GirlImg = styled.div`
+position: absolute;
+left:129%;
+
+`
+
+export const SectionPocket = styled.section`
 left:7.6%;
 display:flex;
 position:absolute;
 height:40vh;
-top:50%;
+top:62%;
+`
+export const PocketBox = styled.div `
+width:55vw;
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+height:37vh;
+align-items:flex-end;
+position:absolute;
+left:17%;
+top:10%;
+font-size:1.4vw;
+`
+
+export const SectionLast = styled.section`
+left:5%;
+display:flex;
+position:absolute;
+height:40vh;
+top:82%;
+width:50vw;
 `
