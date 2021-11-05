@@ -51,6 +51,7 @@ export const BoxTitle = styled.div`
     height: 90vh;
     position: absolute;
     top: 100px;
+    width:34vw;
     right: 420px;
 `
 export const TextDownload = styled.div`
@@ -64,6 +65,7 @@ export const TextDownload = styled.div`
 `
 export const TitleDown = styled.p`
     color: #24292b;
+    
 `
 export const TitleApp = styled.p`
     color: #fffcf4;

@@ -20,6 +20,10 @@ export const Nav = styled.nav`
     left:51%;
     font-size:1.5vw;
     justify-content:space-evenly;
+    &:hover {
+        color:yellow;
+        cursor:pointer;
+      }
 `
 export const Img = styled.div`
 

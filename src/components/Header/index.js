@@ -30,25 +30,28 @@ export function Header() {
         }
     }
 `)
-    const {imglogo,imgtaxi,bookcity,taxi, home, booking, contactus} = data.alldata.headers[0]
+    const { imglogo, imgtaxi, bookcity, taxi, home, booking, contactus } = data.alldata.headers[0]
     return (
         <div>
             <S.Container>
-            <S.Img>
-            <img src={imglogo.url} alt=""/>
-            </S.Img>
-            <S.Nav>
-            <p>{home}</p>
-            <p>{taxi}</p>
-            <p>{booking}</p>
-            <p>{contactus}</p>
-            </S.Nav>
+                <S.Img>
+                    <img src={imglogo.url} alt="" />
+                </S.Img>
+                <S.Nav>
+
+                    <p>{home}</p>
+                    <p>{taxi}</p>
+                    <p>{booking}</p>
+                    <p>{contactus}</p>
+
+
+                </S.Nav>
             </S.Container>
             <S.HeaderTwo>
-            <p>{bookcity}</p>
-            <img src={imgtaxi.url} alt=""/>
+                <p>{bookcity}</p>
+                <img src={imgtaxi.url} alt="" />
             </S.HeaderTwo>
-             
+
         </div>
     )
 }
