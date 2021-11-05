@@ -97,4 +97,19 @@ export const CardBox = styled.div`
     justify-content: space-evenly;
     align-items:center;
 `
+export const Main2box = styled.section`
+border: solid red;
+display:flex;
+position:relative;
+justify-content:center;
+width:100%;
+height:120vh;
+`
+export const Main2Title = styled.div`
+font-weight:100; 
+height: 10vh;
+top:10%;
+position:absolute;
+font-size:2.7vw;
 
+`

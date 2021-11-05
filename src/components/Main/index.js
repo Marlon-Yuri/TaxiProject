@@ -14,6 +14,7 @@ export function Main() {
                 circle02
                 circle03
                 cardtitle
+                
                 cardtext
                 cardtaxi {
                   url
@@ -32,7 +33,8 @@ export function Main() {
         }
             
 `)
-    const { cardtitle, circle01, circle02, circle03, cardtaxi, car1, car2, car3, cardtext, titledownload, titleapptoday, imgcellphone, imgbackground } = data.alldata.mains[0]
+    const { cardtitle, circle01, circle02, circle03, cardtaxi, car1, car2, car3, cardtext, titledownload, titleapptoday, imgcellphone, imgbackground 
+    , main2Title} = data.alldata.mains[0]
     return (
         <div>
             <S.Container>
@@ -67,9 +69,15 @@ export function Main() {
                         <p>{cardtext}</p>
                         <img src={cardtaxi.url} alt="" />
                     </S.Card>
-
                 </S.Cards>
             </S.Container>
+            <S.Main2box>
+                <S.Main2Title>
+                    <h2>{main2Title}</h2>
+                </S.Main2Title>
+                
+            </S.Main2box>
+            
             <S.SectionBackground>
                 <S.Background src={imgbackground.url} alt="" />
                 <S.BoxTitle>
