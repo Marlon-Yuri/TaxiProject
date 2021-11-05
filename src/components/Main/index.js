@@ -14,11 +14,23 @@ export function Main() {
                 circle02
                 circle03
                 cardtitle
+                wallettitle
+                wallettext
+                walletbuttom
+                wallet {
+                  url
+                }
                 cardtext
                 cardtaxi {
                   url
                 }
                 main2Title
+                girlbuttom
+                girltext
+                girltitle
+                girlimg {
+                  url
+                }
                 titledownload
                 titleapptoday
                 imgcellphone {
@@ -32,14 +44,16 @@ export function Main() {
         }
             
 `)
-    const {cardtitle, circle01, circle02, circle03, cardtaxi, car1, car2, car3, cardtext,titledownload,titleapptoday,imgcellphone,imgbackground} = data.alldata.mains[0]
+    const { cardtitle, circle01, circle02, circle03, cardtaxi, car1, car2, car3, cardtext, titledownload, titleapptoday, imgcellphone, imgbackground 
+    , main2Title, wallettitle, wallettext, walletbuttom, wallet, girlbuttom,
+girltext, girltitle, girlimg} = data.alldata.mains[0]
     return (
         <div>
-            <S.SectionCardTaxi>
-                <S.TitleCardTaxi>
+            <S.Container>
+                <S.Div>
                     <p>{cardtitle}</p>
-                </S.TitleCardTaxi>
-                <S.BoxCard>
+                </S.Div>
+                <S.Cards>
                     <S.Card>
                         <S.Circle>
                             <p>{circle01}</p>
@@ -62,12 +76,40 @@ export function Main() {
                         </S.Circle>
                         <h3>{car3}</h3>
                         <p>{cardtext}</p>
-                        <S.ImgCar src={cardtaxi.url} alt=""/>
+                        <img src={cardtaxi.url} alt="" />
                     </S.Card>
-                </S.BoxCard>
-            </S.SectionCardTaxi>
+                </S.Cards>
+            </S.Container>
+            <S.Main2box>
+                <S.Main2Title>
+                    <h2>{main2Title}</h2>
+                </S.Main2Title>
+                <S.SectionWallet>
+                <img src={wallet.url} alt="" />
+                <S.WalletBox>
+                <h3>{wallettitle}</h3>
+                <p>{wallettext}</p>
+                <S.BtnWallet>
+                    <h3>{walletbuttom}</h3>
+                </S.BtnWallet>
+                
+                </S.WalletBox>
+                </S.SectionWallet>
+                <S.SectionGirl>
+                <img src={girlimg.url} alt="" />
+                <S.WalletBox>
+                <h3>{girltitle}</h3>
+                <p>{girltext}</p>
+                <S.BtnWallet>
+                    <h3>{girlbuttom}</h3>
+                </S.BtnWallet>
+                
+                </S.WalletBox>
+
+                </S.SectionGirl>
+            </S.Main2box>
             <S.SectionBackground>
-                <S.Background src={imgbackground.url} alt=""/>
+                <S.Background src={imgbackground.url} alt="" />
                 <S.BoxTitle>
                     <S.TextDownload>
                         <S.TitleDown>{titledownload}</S.TitleDown>
@@ -75,7 +117,7 @@ export function Main() {
                     </S.TextDownload>
                 </S.BoxTitle>
                 <div>
-                    <S.CellPhone src={imgcellphone.url} alt=""/>
+                    <S.CellPhone src={imgcellphone.url} alt="" />
                 </div>
             </S.SectionBackground>
         </div>
