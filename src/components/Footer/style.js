@@ -35,6 +35,9 @@ export const Item = styled.p`
     margin-left: 20px;
     font-size: 1.3rem;
     cursor: pointer;
+    &:hover{
+        color: #f8ca11;
+    }
 `
 export const Title = styled.h3`
     font-size: 2rem;

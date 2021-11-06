@@ -146,7 +146,7 @@ export const TextDownload = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 3rem;
+    font-size: 3.7vw;
     line-height: 1.80857;
     font-weight: normal;
 `
