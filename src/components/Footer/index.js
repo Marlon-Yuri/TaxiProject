@@ -58,7 +58,7 @@ export function Footer() {
                 <S.Card>
                     <S.BoxInfo>
                         <S.Title>{titleaddress}</S.Title>
-                        <p>{paragraph}</p>
+                        <S.Paragraph>{paragraph}</S.Paragraph>
                     </S.BoxInfo>
                 </S.Card>
                 <S.Card>
