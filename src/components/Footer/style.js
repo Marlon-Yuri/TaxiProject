@@ -26,45 +26,50 @@ export const Navegation = styled.div`
     
 `
 export const BoxNav = styled.div`
+    width: 100%;
     display: flex;
     align-items: center;
-    width: 150px;
-    height: 30px;
+    margin: 10px 0;
 `
 export const Item = styled.p`
     margin-left: 20px;
-    font-size: 1.3rem;
+    font-size: 1.6vw;
     cursor: pointer;
+    &:hover{
+        color: #f8ca11;
+    }
 `
 export const Title = styled.h3`
-    font-size: 2rem;
+    font-size: 2.5vw;
+    margin: 30px 0;
+`
+export const Paragraph = styled.p`
+    width: 100%;
+    height: 80%;
+    font-size: 1.5vw;
 `
 export const BoxInfo = styled.div`
     width: 100%;
-    height: 80%;
+    min-height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 `
 export const BoxNews = styled.div`
     width: 100%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 `
 export const Input = styled.input`
     width: 100%;
-    height: 50px;
     padding: 10px;
+    margin-bottom: 20px;
     border-radius: 5px;
     border: 0px;
-    font-size: 17.6px;
+    font-size: 1.6vw;
 `
 export const Btn = styled.button`
     width: 70%;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.5vw;
     color: #eceaea;
     background-color: #fecf3d;
     border: none;

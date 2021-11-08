@@ -72,7 +72,7 @@ justify-content:center;
 align-items:center;
 
 `
-export const Test = styled.input`
+export const InputText = styled.input`
 width:38vw;
 height:4vh;
 `

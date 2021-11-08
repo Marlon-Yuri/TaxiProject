@@ -44,12 +44,12 @@ export function HeaderSlide() {
                         <h2>{inputtitleslide}</h2>
                     </S.InpTt>
                     <S.BoxInput>
-                    <S.Test type = "email" name="email"
-                            placeholder="E-mail"/>
-                             <S.Test type = "email" name="email"
-                            placeholder="E-mail"/>
-                             <S.Test type = "email" name="email"
-                            placeholder="E-mail"/>                           
+                    <S.InputText type = "email" name="email"
+                            placeholder={pickup}/>
+                             <S.InputText type = "email" name="email"
+                            placeholder={dropinput}/>
+                             <S.InputText type = "email" name="email"
+                            placeholder={wheninput}/>                           
                     </S.BoxInput>
                     <S.Btn>
                         <h2>{buttominput}</h2>

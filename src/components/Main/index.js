@@ -62,98 +62,91 @@ girltext, girltitle, girlimg, pockettitle,pocketimg} = data.alldata.mains[0]
                 <S.BoxCard >
   
                     <S.Card>
-                        <S.Circle>
+                        <S.Number>
                             <p>{circle01}</p>
-                        </S.Circle>
+                        </S.Number>
                         <h3>{car1}</h3>
                         <p>{cardtext}</p>
                         <S.ImgCar src={cardtaxi.url} alt=""/>
                     </S.Card>
                     <S.Card>
-                        <S.Circle>
+                        <S.Number>
                             <p>{circle02}</p>
-                        </S.Circle>
+                        </S.Number>
                         <h3>{car2}</h3>
                         <p>{cardtext}</p>
                         <S.ImgCar src={cardtaxi.url} alt=""/>
                     </S.Card>
                     <S.Card>
-                        <S.Circle>
+                        <S.Number>
                             <p>{circle03}</p>
-                        </S.Circle>
+                        </S.Number>
                         <h3>{car3}</h3>
                         <p>{cardtext}</p>
                         <S.ImgCar src={cardtaxi.url} alt="" />
                     </S.Card>
                 </S.BoxCard>
             </S.SectionCardTaxi>
-            <S.Main2box>
-                <S.Main2Title>
+
+            <S.SectionTextTaxi>
+                <S.TitleTextTaxi>
                     <h2>{main2Title}</h2>
-                </S.Main2Title>
-                <S.SectionWallet>
-                <img src={wallet.url} alt="" />
-                <S.WalletBox>
-                <h3>{wallettitle}</h3>
-                <p>{wallettext}</p>
-                <S.BtnWallet>
-                    <h3>{walletbuttom}</h3>
-                </S.BtnWallet>
-                
-                </S.WalletBox>
-                </S.SectionWallet>
-                <S.SectionGirl>
-                    <S.GirlImg>
-                        <img src={girlimg.url} alt="" />
-                    </S.GirlImg>
-                
-                <S.GirlBox>
-                <h3>{girltitle}</h3>
-                <p>{girltext}</p>
-                <S.BtnWallet>
-                    <h3>{girlbuttom}</h3>
-                </S.BtnWallet>
-                </S.GirlBox>
-                </S.SectionGirl>
-                <S.SectionPocket>
-                <img src={pocketimg.url} alt="" />
-                <S.WalletBox>
-                <h3>{pockettitle}</h3>
-                <p>{wallettext}</p>
-                <S.BtnWallet>
-                    <h3>{walletbuttom}</h3>
-                </S.BtnWallet>
-                
-                </S.WalletBox>
-                </S.SectionPocket>
-                <S.SectionLast>
-                <S.GirlImg>
-                        <img src={pocketimg.url} alt="" />
-                    </S.GirlImg>
-                
-                <S.GirlBox>
-                <h3>{pockettitle}</h3>
-                <p>{girltext}</p>
-                <S.BtnWallet>
-                    <h3>{girlbuttom}</h3>
-                </S.BtnWallet>
-                </S.GirlBox>
-                </S.SectionLast>
+                </S.TitleTextTaxi>
+                <S.BoxAd>
+                    <S.ImgAd src={wallet.url} alt=""/>
+                    <S.TextAd>
+                        <h3>{wallettitle}</h3>
+                        <S.ParagraphAd>{wallettext}</S.ParagraphAd>
+                        <S.BtnBookNow>
+                            <h3>{walletbuttom}</h3>
+                        </S.BtnBookNow>
+                    </S.TextAd>
+                </S.BoxAd>
+                <S.BoxAdReverse>
+                    <S.ImgAd src={girlimg.url} alt=""/>
+                    <S.TextAdReverse>
+                        <h3>{girltitle}</h3>
+                        <S.ParagraphAd>{girltext}</S.ParagraphAd>
+                        <S.BtnBookNow>
+                            <h3>{girlbuttom}</h3>
+                        </S.BtnBookNow>
+                    </S.TextAdReverse>
+                </S.BoxAdReverse>
+                <S.BoxAd>
+                    <S.ImgAd src={pocketimg.url} alt="" />
+                    <S.TextAd>
+                        <h3>{pockettitle}</h3>
+                        <S.ParagraphAd>{wallettext}</S.ParagraphAd>
+                        <S.BtnBookNow>
+                            <h3>{walletbuttom}</h3>
+                        </S.BtnBookNow>
+                    </S.TextAd>
+                </S.BoxAd>
+                <S.BoxAdReverse>
+                    <S.ImgAd src={pocketimg.url} alt="" />
+                    <S.TextAdReverse>
+                        <h3>{pockettitle}</h3>
+                        <S.ParagraphAd>{girltext}</S.ParagraphAd>
+                        <S.BtnBookNow>
+                            <h3>{girlbuttom}</h3>
+                        </S.BtnBookNow>
+                    </S.TextAdReverse>
+                </S.BoxAdReverse>
+            </S.SectionTextTaxi>
 
-
-        
-            </S.Main2box>
             <S.SectionBackground>
                 <S.Background src={imgbackground.url} alt="" />
-                <S.BoxTitle>
-                    <S.TextDownload>
-                        <S.TitleDown>{titledownload}</S.TitleDown>
-                        <S.TitleApp>{titleapptoday}</S.TitleApp>
-                    </S.TextDownload>
-                </S.BoxTitle>
-                <div>
-                    <S.CellPhone src={imgcellphone.url} alt="" />
-                </div>
+                <S.DivPai>
+                    <S.BoxTitle>
+                        <S.TextDownload>
+                            <S.TitleDown>{titledownload}</S.TitleDown>
+                            <S.TitleApp>{titleapptoday}</S.TitleApp>
+                        </S.TextDownload>
+                    </S.BoxTitle>
+                    <S.BoxCellPhone>
+                        <S.CellPhone src={imgcellphone.url} alt="" />
+                    </S.BoxCellPhone>
+                </S.DivPai>    
             </S.SectionBackground>
         </div>
     )

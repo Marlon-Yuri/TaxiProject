@@ -35,13 +35,10 @@ export function Header() {
                     <img src={imglogo.url} alt="" />
                 </S.Img>
                 <S.Nav>
-
-                    <p>{home}</p>
-                    <p>{taxi}</p>
-                    <p>{booking}</p>
-                    <p>{contactus}</p>
-
-
+                    <S.ItemMenu>{home}</S.ItemMenu>
+                    <S.ItemMenu>{taxi}</S.ItemMenu>
+                    <S.ItemMenu>{booking}</S.ItemMenu>
+                    <S.ItemMenu>{contactus}</S.ItemMenu>
                 </S.Nav>
             </S.Container>
             <S.HeaderTwo>
