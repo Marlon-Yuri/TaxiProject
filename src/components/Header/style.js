@@ -14,21 +14,21 @@ export const Container = styled.section`
 `
 export const Nav = styled.nav`
     width: 40vw;
-    color:white;
     display: flex;
+    justify-content:space-evenly;
     position:absolute;
     left:51%;
+`
+export const ItemMenu = styled.p`
+    color:white;
     font-size:1.5vw;
-    justify-content:space-evenly;
     &:hover {
         color:yellow;
         cursor:pointer;
-      }
+    }
 `
 export const Img = styled.div`
-
     margin-left:9%;
-
 `
 export const HeaderTwo = styled.div`
 padding-top:8%;

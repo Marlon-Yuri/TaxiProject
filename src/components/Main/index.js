@@ -133,15 +133,17 @@ girltext, girltitle, girlimg, pockettitle,pocketimg} = data.alldata.mains[0]
 
             <S.SectionBackground>
                 <S.Background src={imgbackground.url} alt="" />
-                <S.BoxTitle>
-                    <S.TextDownload>
-                        <S.TitleDown>{titledownload}</S.TitleDown>
-                        <S.TitleApp>{titleapptoday}</S.TitleApp>
-                    </S.TextDownload>
-                </S.BoxTitle>
-                <div>
-                    <S.CellPhone src={imgcellphone.url} alt="" />
-                </div>
+                <S.DivPai>
+                    <S.BoxTitle>
+                        <S.TextDownload>
+                            <S.TitleDown>{titledownload}</S.TitleDown>
+                            <S.TitleApp>{titleapptoday}</S.TitleApp>
+                        </S.TextDownload>
+                    </S.BoxTitle>
+                    <S.BoxCellPhone>
+                        <S.CellPhone src={imgcellphone.url} alt="" />
+                    </S.BoxCellPhone>
+                </S.DivPai>    
             </S.SectionBackground>
         </div>
     )

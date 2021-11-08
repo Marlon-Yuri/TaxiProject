@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const SectionCardTaxi = styled.section`
-    width:98.9vw;
+    
     height:125vh;
     display:flex;
     flex-direction: column;
@@ -127,40 +127,52 @@ export const BtnBookNow = styled.div`
 
 
 export const SectionBackground = styled.section`
-    width: 98.9vw;
-    height: 115vh;
+    min-width: 98.9vw;
+    max-height: 120vh;
+    margin-bottom: 20px;
     position: relative;
 `
 export const Background = styled.img`
-    width: 98.9vw;
+    width: 100%;
+`
+export const DivPai = styled.div`
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    right: 0;
 `
 export const BoxTitle = styled.div`
     width:34vw;
-    height: 90vh;
+    max-height: 30vh;
     position: absolute;
     top: 15%;
-    right: 23%;
+    right: 25%;
 `
 export const TextDownload = styled.div`
-    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-size: 3rem;
     line-height: 1.80857;
     font-weight: normal;
 `
 export const TitleDown = styled.p`
-    color: #24292b;
-    
+    color: #24292b;  
+    font-size: 3.7vw;
 `
 export const TitleApp = styled.p`
     color: #fffcf4;
+    font-size: 3.7vw;
     font-weight: 400;
 `
-export const CellPhone = styled.img`
-    width: 20%;
+export const BoxCellPhone = styled.div`
+    width: 24.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    top: 100px;
-    right: 50px;
+    top: 13%;
+    right: 1%;
+`
+export const CellPhone = styled.img`
+    width: 85%;
 `
