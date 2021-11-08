@@ -90,7 +90,7 @@ export const Circle = styled.div`
     height:50px;
     font-weight:bolder;
     align-items:center;
-    top:-7.7%;
+    top:-4.5%;
     font-size:1.8vw;
     color:#DCDCDC;
     background-color:#FFB90F;

@@ -2,6 +2,8 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import * as S from './style'
 
+
+
 export function Main() {
     const data = useStaticQuery(graphql`
     query {
@@ -58,6 +60,7 @@ girltext, girltitle, girlimg, pockettitle,pocketimg} = data.alldata.mains[0]
                     <p>{cardtitle}</p>
                 </S.TitleCardTaxi>
                 <S.BoxCard >
+  
                     <S.Card>
                         <S.Circle>
                             <p>{circle01}</p>

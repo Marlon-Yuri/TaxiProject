@@ -11,10 +11,7 @@ export function Header() {
             imglogo {
             url
             }
-            imgtaxi{
-            url
-            }
-            bookcity
+        
             booking
             booknow
             home
@@ -30,7 +27,7 @@ export function Header() {
         }
     }
 `)
-    const { imglogo, imgtaxi, bookcity, taxi, home, booking, contactus } = data.alldata.headers[0]
+    const { imglogo,taxi, home, booking, contactus } = data.alldata.headers[0]
     return (
         <div>
             <S.Container>
@@ -48,8 +45,7 @@ export function Header() {
                 </S.Nav>
             </S.Container>
             <S.HeaderTwo>
-                <p>{bookcity}</p>
-                <img src={imgtaxi.url} alt="" />
+                
             </S.HeaderTwo>
 
         </div>
